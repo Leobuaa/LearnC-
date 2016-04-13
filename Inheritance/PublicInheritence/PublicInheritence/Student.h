@@ -9,20 +9,6 @@
 #ifndef Student_hpp
 #define Student_hpp
 
-#include <iostream>
-#include "People.h"
-
-using namespace std;
-
-class Student : public People {
-public:
-    Student(const string &, const string &, int, BirthDay, const string &);
-    
-    void setSchoolName(const string &);
-    void print();
-    
-private:
-    string schoolName;
-};
+#include <stdio.h>
 
 #endif /* Student_hpp */
